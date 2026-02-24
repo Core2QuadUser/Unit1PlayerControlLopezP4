@@ -6,7 +6,7 @@ public class FollowPlayer : MonoBehaviour
 
     // why do you need a "new" declaration?
 
-    private Vector3 offset = new Vector3(0, 5, -7);
+    public Vector3 offset = new Vector3(0, 5, -7);
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
