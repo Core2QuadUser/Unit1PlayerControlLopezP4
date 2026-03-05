@@ -576,6 +576,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputID: 1
+  speed: 176.8
+  horizontalInput: 0
   mainCamera: {fileID: 825822714}
   hoodCamera: {fileID: 1379018803}
   switchKey: 102
@@ -698,6 +700,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 917430aeec553e8409e216f1c6462136, type: 3}
       propertyPath: m_Name
       value: LightningPlayer P1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 917430aeec553e8409e216f1c6462136, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1133,6 +1139,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputID: 2
+  speed: 20
+  horizontalInput: 0
   mainCamera: {fileID: 1415089571}
   hoodCamera: {fileID: 894297922}
   switchKey: 303
@@ -2018,6 +2026,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputID: 2
+  speed: 20
+  horizontalInput: 0
   mainCamera: {fileID: 1415089571}
   hoodCamera: {fileID: 549781276}
   switchKey: 303
@@ -2273,6 +2283,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputID: 1
+  speed: 20
+  horizontalInput: 0
   mainCamera: {fileID: 825822714}
   hoodCamera: {fileID: 31394174}
   switchKey: 303

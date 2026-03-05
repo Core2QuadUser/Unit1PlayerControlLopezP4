@@ -5,11 +5,11 @@ public class PlayerController : MonoBehaviour
     public string inputID;
 
     //Private Variables
-    private float speed = 20.0f;
+    public float speed = 20.0f;
 
     private float turnSpeed = 45.0f;
 
-    private float horizontalInput;
+    public float horizontalInput;
 
     private float forwardInput;
 
